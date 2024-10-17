@@ -1,5 +1,6 @@
 # Data-Structures-Java
-
+## Arrays
+==========
 - Inserting or deleting elements in the midddle of an array requires extra memory
 
 - Deleting and replacing elements with null values can waste memory because the array size remains unchanged
@@ -64,5 +65,7 @@ Public class Main{
   int[] arr;
   arr = new int[]{1, 2, 3}; // Memory is allocated explicitly with `new`
 ```
+==========
 
+## ArrayList 
 
