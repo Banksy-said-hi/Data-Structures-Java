@@ -73,3 +73,19 @@ Public class Main{
 - ArrayList can grow or shrink as needed
 
 - ArrayList has ```.size( )```, whereas Array only has Length attribute
+    ```
+    public class Main {
+      public static void main(String[] args) {
+        // Example with ArrayList
+        ArrayList<String> arrayList = new ArrayList<>();
+        arrayList.add("Apple");
+        arrayList.add("Banana");
+        arrayList.add("Cherry");
+        System.out.println("ArrayList size: " + arrayList.size());
+
+        // Example with Array
+        String[] array = {"Dog", "Cat", "Bird"};
+        System.out.println("Array length: " + array.length);
+      }
+    }
+    ```
