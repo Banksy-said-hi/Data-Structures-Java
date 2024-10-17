@@ -66,4 +66,10 @@ Public class Main{
 ```
 
 ## ArrayList 
+- An ArrayList is a resizable array implenentation within the Java Collections Framework, Effective dynamic resizing, adding, and removing
 
+- ArrayList can only hold objects, not primitvie data types
+
+- ArrayList can grow or shrink as needed
+
+- ArrayList has ```.size( )```, whereas Array only has Length attribute
