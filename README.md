@@ -55,7 +55,7 @@ Arrays.fill(seats, 15, 30, 3);
 
 - You must use the new keyword when assigning an array after the declaration. Java expects the new keyword when assigning an array after declaration because the array must be dynamically created in memory. Without new, Java wouldn’t know where or how to allocate memory for the new array values.
 
-   **Example of direct initialization (no new)**
+  **Example of direct initialization (no new)**
 ```
   int[] arr = {1, 2, 3}; // Memory is allocated automatically
 ```
