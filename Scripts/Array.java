@@ -1,4 +1,6 @@
-public class Main {
+package Scripts;
+
+public class Array {
     public void main() {
         // Initializing an array of size 12
         int[] daysInMonth = new int[12];
