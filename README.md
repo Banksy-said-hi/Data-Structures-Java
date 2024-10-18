@@ -89,3 +89,27 @@ Public class Main{
       }
     }
     ```
+  
+- **ArrayList** Basic Declaration:
+```
+public class BasicArrayList {
+    public static void main(String[] args) {
+        ArrayList lst = new ArrayList(); // Declaring an ArrayList without specifying a type
+        lst.add("ArrayList declaration");  // Adding a String
+        lst.add(123); // Adding an Integer
+        System.out.println("Basic ArrayList: " + lst);
+    }
+}
+```
+
+- **Generic** Declaration:
+```
+public class GenericArrayList {
+    public static void main(String[] args) {
+        ArrayList<String> stringList = new ArrayList<String>(); // ArrayList for storing Strings only
+        stringList.add("Generic List");
+        // stringList.add(123); // This line would cause a compile-time error
+        System.out.println("Generic ArrayList: " + stringList);
+    }
+}
+```
