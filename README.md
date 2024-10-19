@@ -68,6 +68,8 @@ Public class Main{
 ## ArrayList 
 - An ArrayList is a resizable array implenentation within the Java Collections Framework, Effective dynamic resizing, adding, and removing
 
+- ArrayList dynamically resizes to accommodate more or fewer elements as needed
+
 - ArrayList can only hold objects, not primitvie data types
 
 - ArrayList can grow or shrink as needed
@@ -125,5 +127,7 @@ public class GenericArrayList {
   - **remove(Object obj)**: Removes the first occurrence of the specified element from the list if it exists.
     
   - **clear()**: The clear method removes all elements from the ArrayList, leaving it empty.
+ 
+- get(), indexOf()
 
 
