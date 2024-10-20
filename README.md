@@ -132,4 +132,16 @@ public class GenericArrayList {
 
 - ArrayList for **DYNAMIC DATA ( adjusting & flexiblity )** whereas Array for **STATIC DATA ( fixed and efficiency )**
 
+## LinkedList
+- A linked list is a data structure that allows you to store a sequence of elements called nodes. Each node holds two critical pieces of information: the data itself and a reference (or link) to the next node in the sequence. This setup forms a chain-like structure, where each node knows how to find the next one.
+
+- A linked list allows you to insert the items at any specified position such as the beginning of the list, the end of the list (as shown above), or after or before any particular node
+
+- A data strcuture where elements are structured in a linear sequence, memory allocation is done only when a new node is added, each node has two main components **data ( the stored value )** & **next ( pointer to another node )**, first node is called **head**
+  
+- **Singly Linked List**: Only moving forward, each node only has pointers to next node, this structure is efficient for scenarios where you primarily need to move forward through the list, such as managing a dynamic queue of customers.
+
+
+- 
+
 
