@@ -130,6 +130,6 @@ public class GenericArrayList {
  
 - get(), indexOf()
 
-- ArrayList for **DYNAMIC DATA** whereas Array for **STATIC DATA**
+- ArrayList for **DYNAMIC DATA ( adjusting & flexiblity )** whereas Array for **STATIC DATA ( fixed and efficiency )**
 
 
