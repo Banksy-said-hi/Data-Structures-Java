@@ -133,7 +133,7 @@ public class GenericArrayList {
 - ArrayList for **DYNAMIC DATA ( adjusting & flexiblity )** whereas Array for **STATIC DATA ( fixed and efficiency )**
 
 ## LinkedList
-- A linked list is a data structure that allows you to store a sequence of elements called nodes. Each node holds two critical pieces of information: the data itself and a reference (or link) to the next node in the sequence. This setup forms a chain-like structure, where each node knows how to find the next one.
+- A Linked List is a data structure that allows you to store a sequence of elements called **nodes**. Each node holds two critical pieces of information: the **data** itself and a **reference** (or link) to the next node in the sequence. This setup forms a chain-like structure, where each node knows how to find the next one.
 
 - A linked list allows you to insert the items at any specified position such as the beginning of the list, the end of the list (as shown above), or after or before any particular node
 
@@ -141,7 +141,38 @@ public class GenericArrayList {
   
 - **Singly Linked List**: Only moving forward, each node only has pointers to next node, this structure is efficient for scenarios where you primarily need to move forward through the list, such as managing a dynamic queue of customers.
 
+- Removing a customer by Linked List: 
+```
+// Method to remove a specific customer from the waitlist
+void removeCustomer(String customerName) {
+    if (head == null) return;  // If the waitlist is empty, there's nothing to remove
+    // If the customer to remove is at the head of the list
+    if (head.name.equals(customerName)) {
+        head = head.next;  // Move the head to the next customer
+        return;
+    }
+    Node current = head;
+    while (current.next != null && !current.next.name.equals(customerName)) {
+        current = current.next;
+    }
+    if (current.next != null) {
+        current.next = current.next.next;  // Bypass the node to remove the customer
+    }
+}
+```
 
-- 
-
+- Updating a customer's details
+```
+// Method to update a customer's details
+void updateCustomer(String customerName, String newDetails) {
+    Node current = head;
+    while (current != null) {
+        if (current.name.equals(customerName)) {
+            current.details = newDetails;  // Update the customer’s details
+            return;
+        }
+        current = current.next;
+    }
+}
+```
 
