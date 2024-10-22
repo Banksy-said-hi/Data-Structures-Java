@@ -7,7 +7,7 @@
 - Null Pointer Exception??
 
 - Initializing an array static means allocating memory and setting initial values for each element optionally. Depending on your use case, you can initialize an array in Java in **static** or **dynamic** ways.
-  ```
+```
   public class Main {
       public static void main(String[] args) {
           String[] daysOfWeek = {"Sunday", "Monday", "Tuesday",”Wednesday”, “Thursday”};
@@ -16,7 +16,7 @@
           }
       }
   }
-  ```
+```
 
 - **Initialization syntax**: Initializing arrays with {...} without using the new keyword is only allowed at the point of declaration. In other words, you can only use the shorthand {...} syntax directly when you declare the array. Doing otherwise will cause a compilation error.
 ```
@@ -75,22 +75,22 @@ Public class Main{
 - ArrayList can grow or shrink as needed
 
 - ArrayList has ```.size( )```, whereas Array only has Length attribute
-    ```
-    public class Main {
-      public static void main(String[] args) {
-        // Example with ArrayList
-        ArrayList<String> arrayList = new ArrayList<>();
-        arrayList.add("Apple");
-        arrayList.add("Banana");
-        arrayList.add("Cherry");
-        System.out.println("ArrayList size: " + arrayList.size());
+```
+public class Main {
+  public static void main(String[] args) {
+    // Example with ArrayList
+    ArrayList<String> arrayList = new ArrayList<>();
+    arrayList.add("Apple");
+    arrayList.add("Banana");
+    arrayList.add("Cherry");
+    System.out.println("ArrayList size: " + arrayList.size());
 
-        // Example with Array
-        String[] array = {"Dog", "Cat", "Bird"};
-        System.out.println("Array length: " + array.length);
-      }
-    }
-    ```
+    // Example with Array
+    String[] array = {"Dog", "Cat", "Bird"};
+    System.out.println("Array length: " + array.length);
+  }
+}
+```
   
 - **ArrayList** Basic Declaration:
 ```
