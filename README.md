@@ -141,7 +141,7 @@ public class GenericArrayList {
   
 - **Singly Linked List**: Only moving forward, each node only has pointers to next node, this structure is efficient for scenarios where you primarily need to move forward through the list, such as managing a dynamic queue of customers.
 
-- Removing a customer by Linked List: 
+- Removing a customer: 
 ```
 // Method to remove a specific customer from the waitlist
 void removeCustomer(String customerName) {
