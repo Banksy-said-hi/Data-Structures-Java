@@ -178,3 +178,5 @@ void updateCustomer(String customerName, String newDetails) {
 
 - Adding elements to a LinkedList is like writing down each new clue in your notepad. The ```add()``` method is like a built-in helper that makes it easy to insert new elements into your list. When you use the add method, Java’s LinkedList locates the correct placement in the sequence and inserts it for you. This method adds the new element to the end of the list by default, making it the next step in your sequence.
 
+- The ```set()``` method is an in-built method that allows you to replace an existing element at a specific position in the list. When you use the set method, you’re telling the LinkedList, so change the clue in position 1 to something more specific." The set() method takes care of locating the exact position in the list and updating the element with the new value you provide.
+
