@@ -180,3 +180,5 @@ void updateCustomer(String customerName, String newDetails) {
 
 - The ```set()``` method is an in-built method that allows you to replace an existing element at a specific position in the list. When you use the set method, you’re telling the LinkedList, so change the clue in position 1 to something more specific." The set() method takes care of locating the exact position in the list and updating the element with the new value you provide.
 
+- This built-in ```get()``` function allows you to access any element in your LinkedList by specifying its position, making it easy to review or display particular clues whenever you need to.
+
