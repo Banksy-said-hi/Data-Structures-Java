@@ -183,6 +183,17 @@ void updateCustomer(String customerName, String newDetails) {
 - This built-in ```get()``` function allows you to access any element in your LinkedList by specifying its position, making it easy to review or display particular clues whenever you need to.
 
 ## Doubly LinkedList
+
+- Choose a singly linked list for better memory efficiency, but opt for a doubly linked list if speed and operational efficiency are more important.
+
+- **Memory Usage**:
+  •	Singly Linked List: Uses less memory as each node only holds a reference to the next node. Ideal when you want to keep memory usage low, especially in cases with a large number of nodes.
+	•	Doubly Linked List: Each node stores references to both the previous and next nodes. This extra reference doubles the memory usage per node, so it’s more costly in terms of memory.
+
+- **Performance**:
+	•	Singly Linked List: Limited in operation flexibility, particularly when traversing in reverse or performing complex operations. Insertions and deletions are simple but less efficient for backtracking or complex operations.
+	•	Doubly Linked List: Allows two-way traversal, making operations like deletions, insertions, and reverse traversals more efficient in terms of time because it doesn’t require starting over from the head or tail. This is useful for applications where both directions of traversal are common or required for optimal performance.
+
 - **Add After**:
 ```
 public void addAfter(Node prevNode, int data) {
@@ -279,3 +290,7 @@ public void removeNode(Node node) {
     node.next.prev = node.prev;
 }
 ```
+
+<img width="1009" alt="Screenshot 2024-10-25 at 8 53 31 AM" src="https://github.com/user-attachments/assets/e13d52bb-fa36-44a8-be22-f5a6290e996d">
+
+
