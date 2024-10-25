@@ -187,11 +187,14 @@ void updateCustomer(String customerName, String newDetails) {
 - Choose a singly linked list for better memory efficiency, but opt for a doubly linked list if speed and operational efficiency are more important.
 
 - **Memory Usage**:
-  •	Singly Linked List: Uses less memory as each node only holds a reference to the next node. Ideal when you want to keep memory usage low, especially in cases with a large number of nodes.
+
+	•	Singly Linked List: Uses less memory as each node only holds a reference to the next node. Ideal when you want to keep memory usage low, especially in cases with a large number of nodes.
+
 	•	Doubly Linked List: Each node stores references to both the previous and next nodes. This extra reference doubles the memory usage per node, so it’s more costly in terms of memory.
 
 - **Performance**:
 	•	Singly Linked List: Limited in operation flexibility, particularly when traversing in reverse or performing complex operations. Insertions and deletions are simple but less efficient for backtracking or complex operations.
+
 	•	Doubly Linked List: Allows two-way traversal, making operations like deletions, insertions, and reverse traversals more efficient in terms of time because it doesn’t require starting over from the head or tail. This is useful for applications where both directions of traversal are common or required for optimal performance.
 
 - **Add After**:
