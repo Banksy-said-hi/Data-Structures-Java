@@ -193,6 +193,7 @@ void updateCustomer(String customerName, String newDetails) {
 	•	Doubly Linked List: Each node stores references to both the previous and next nodes. This extra reference doubles the memory usage per node, so it’s more costly in terms of memory.
 
 - **Performance**:
+
 	•	Singly Linked List: Limited in operation flexibility, particularly when traversing in reverse or performing complex operations. Insertions and deletions are simple but less efficient for backtracking or complex operations.
 
 	•	Doubly Linked List: Allows two-way traversal, making operations like deletions, insertions, and reverse traversals more efficient in terms of time because it doesn’t require starting over from the head or tail. This is useful for applications where both directions of traversal are common or required for optimal performance.
