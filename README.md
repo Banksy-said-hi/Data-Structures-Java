@@ -183,8 +183,7 @@ void updateCustomer(String customerName, String newDetails) {
 - This built-in ```get()``` function allows you to access any element in your LinkedList by specifying its position, making it easy to review or display particular clues whenever you need to.
 
 ## Doubly LinkedList
-
-- Choose a singly linked list for better memory efficiency, but opt for a doubly linked list if speed and operational efficiency are more important.
+Choose a singly linked list for better memory efficiency, but opt for a doubly linked list if speed and operational efficiency are more important.
 
 - **Memory Usage**:
 
