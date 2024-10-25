@@ -182,3 +182,100 @@ void updateCustomer(String customerName, String newDetails) {
 
 - This built-in ```get()``` function allows you to access any element in your LinkedList by specifying its position, making it easy to review or display particular clues whenever you need to.
 
+## Doubly LinkedList
+- **Add After**:
+```
+public void addAfter(Node prevNode, int data) {
+      if (prevNode == null) {	// check if the previous node is null
+          return;			// if it is, then return
+      }
+      Node newNode = new Node(data);	// create a new node
+      newNode.next = prevNode.next;	// set the next of new node to next of prev node
+      prevNode.next = newNode;	// set the next of prev node to new node
+      newNode.prev = prevNode;	// set the previous of new node to prev node
+      if (newNode.next != null) {	// check if the new node is not the last node
+          newNode.next.prev = newNode;	// set the next node's prev to the new node
+      } else {				// if the new node is the last node
+          tail = newNode;		// set the tail to the new node
+      }
+  }
+```
+
+- **Forward Traversal**:
+```
+public void traverseForward() {
+    Node current = head;
+    while (current != null) {
+        System.out.print(current.data + " ");
+        current = current.next;
+    }
+    System.out.println();
+}
+```
+
+- **Backward Traversal**:
+```
+public void traverseBackward() {
+      Node current = tail;
+      while (current != null) {
+          System.out.print(current.data + " ");
+          current = current.prev;
+      }
+      System.out.println();
+}
+```
+
+- **Removing the Tail Node**:
+```
+public void removeEnd() {
+    if (tail == null) {
+        return; // List is already empty
+    }
+    tail = tail.prev;
+    if (tail != null) {
+        tail.next = null;
+    } else {
+// If the tail is now null, it means the list had only one node, which has been removed.
+// Set head to null to indicate that the list is completely empty.
+        head = null; 
+    }
+}
+```
+
+- **Removing the Head Node**:
+```
+public void removeFront() {
+    if (head == null) {		// check if the head is null
+        return; // if it is, return because there is nothing to remove. The list is already empty
+    }
+    head = head.next;	// set the head to the next node
+    if (head != null) {		// check if the head is not null
+        head.prev = null;	// set the previous of the head to null
+    } else {	
+// If the head is null, there were no other nodes on the list except for the one you removed.
+// The list is now empty, so you must also set the tail to null.
+        tail = null;
+    }
+}
+```
+
+- **Removing a Node in the Middle**:
+```
+public void removeNode(Node node) {
+    if (node == null) {
+        return;
+    }
+    if (node == head) {
+        removeFront();
+        return;
+    }
+    if (node == tail) {
+        removeEnd();
+        return;
+    }
+    // Update the previous node's next pointer
+    node.prev.next = node.next;
+    // Update the next node's previous pointer
+    node.next.prev = node.prev;
+}
+```
