@@ -308,7 +308,7 @@ What makes ListIterator especially useful in the context of a doubly linked list
 
 - ```previous()```: **Moves the iterator to the previous element and returns that element.** The ListIterator keeps track of its current position internally, so each call to previous() automatically moves it backward by one step. Since it changes the iterator's position, it’s essential to ensure a 'previous' element is available.
 
-- hasPrevious(): Checks if there is an element behind the current position, enabling backward traversal. If hasPrevious() returns true, you can safely use the previous() method to move the iterator backward and access the previous element.
+- ```hasPrevious()```: Checks if there is an element behind the current position, enabling backward traversal. If hasPrevious() returns true, you can safely use the previous() method to move the iterator backward and access the previous element.
 ```
 import java.util.LinkedList;
 import java.util.ListIterator;
