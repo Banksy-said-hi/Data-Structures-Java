@@ -296,7 +296,7 @@ public void removeNode(Node node) {
 
 <img width="1009" alt="Screenshot 2024-10-25 at 8 53 31 AM" src="https://github.com/user-attachments/assets/e13d52bb-fa36-44a8-be22-f5a6290e996d">
 
-- **ListIterator**
+## ListIterator
 Java’s ListIterator is an interface from the java.util package, designed specifically for traversing list implementations, including LinkedList. Since it is part of the Java Collections Framework, you need to import it separately using import java.util.ListIterator; when using it in your code.
 
 What makes ListIterator especially useful in the context of a doubly linked list is its ability to traverse the list forwards and backwards, giving you complete control over the navigation of the list.
