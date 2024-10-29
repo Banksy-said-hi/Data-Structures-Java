@@ -335,6 +335,20 @@ public class Recipe {
 
 <img width="1500" alt="Screenshot 2024-10-20 at 11 20 41 AM" src="https://github.com/user-attachments/assets/273e945d-039b-47d7-aadb-e993a17b3f8b">
 
+## Difference between Arrays & Linkedlist when it comes to **deletion**
+- Array (Seating in a Row)
+Imagine you have a row of seats filled with people in a theater. If you need to remove someone from a seat in the middle, you can’t just pull them out and leave the seat empty. Instead:
 
+	1.	You have to ask everyone sitting to the right of that person to shift one seat to the left.
+	2.	This takes time, especially if it’s a crowded theater, because everyone has to move.
 
+So, with an array, deleting an element means shifting elements to fill the gap, which is time-consuming, especially with larger arrays.
+
+- Linked List (Connected Chairs with Notes):
+Now imagine a similar row of chairs, but each chair is connected by a small string to the next chair. If you want to remove someone from a chair in the middle:
+
+	1.	You simply cut the string before and after that chair and tie those two ends together, bypassing the empty chair.
+	2.	No one else has to move—just a quick adjustment of the connections.
+
+With a linked list, deleting an element is as simple as “retying” the links, which is much faster and more efficient than shifting elements around. This is especially useful when managing large amounts of data or frequently deleting elements from anywhere in the list.
 
