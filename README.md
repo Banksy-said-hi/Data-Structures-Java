@@ -354,3 +354,19 @@ Now imagine a similar row of chairs, but each chair is connected by a small stri
 
 With a linked list, deleting an element is as simple as “retying” the links, which is much faster and more efficient than shifting elements around. This is especially useful when managing large amounts of data or frequently deleting elements from anywhere in the list.
 
+## Stacks
+A stack is a simple data structure that follows the Last In, First Out (LIFO) principle. It’s useful for tasks that need temporary data storage, tracking the history of actions, and backtracking in code. Often used for undo functionality, history tracking, and backtracking.
+
+- LIFO Principle: Stack works on the Last In, First Out (LIFO) concept, the most recently added (last) item is the first one removed.
+
+- Common Operations:
+**Push**: Adds an element to the top of the stack.
+  
+**Pop**: Removes the top element from the stack.
+
+**Peek**: Views the top element without removing it.
+
+- Real-Life Examples:
+Browsing history (back button) where you move back to the last page visited.
+
+Navigating through a series of states or actions, such as nested function calls in recursion.
