@@ -361,13 +361,13 @@ A stack is a simple data structure that follows the Last In, First Out (LIFO) pr
 
 - Common Operations:
   
-**Push**: Adds an element to the top of the stack.
+	**Push**: Adds an element to the top of the stack.
   
-**Pop**: Removes the top element from the stack.
+	**Pop**: Removes the top element from the stack.
 
-**Peek**: Views the top element without removing it.
+	**Peek**: Views the top element without removing it.
 
 - Real-Life Examples:
-Browsing history (back button) where you move back to the last page visited.
+	Browsing history (back button) where you move back to the last page visited.
 
-Navigating through a series of states or actions, such as nested function calls in recursion.
+	Navigating through a series of states or actions, such as nested function calls in recursion.
