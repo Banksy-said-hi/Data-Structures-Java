@@ -362,4 +362,54 @@ A stack is a simple data structure that follows the Last In, First Out (LIFO) pr
 - Common Operations: **Push**: Adds an element to the top of the stack, **Pop**: Removes the top element from the stack, **Peek**: Views the top element without removing it.
 
 - Real-Life Examples:
-	Browsing history (back button) where you move back to the last page visited. Navigating through a series of states or actions, such as nested function calls in recursion.
+	Browsing history (back button) where you move back to the last page visited. Navigating through a series of states or actions, such as nested function calls in recursion
+
+- When implementing a stack using an array, the push() operation adds a new element to the top of the stack. This is done by appending the element to the end of the array, which represents the stack's top.
+```
+public class ArrayStack {
+    private int[] stack;  // Array to store stack elements
+    private int top;      // Top of the stack (index of the top element)
+
+    // Constructor to initialize the stack with a fixed size
+    public ArrayStack(int size) {
+        stack = new int[size];  // Create an array of the given size
+        top = -1;               // Initialize top to -1, indicating an empty stack
+    }
+
+    // Push operation: Adds an element to the top of the stack
+    public void push(int value) {
+        if (top == stack.length - 1) {  // Check if the stack is full
+            System.out.println("Stack is full! Can't push.");
+        } else {
+            stack[++top] = value;  // Increment top and add the value
+            System.out.println(value + " added to the ArrayStack.");
+        }
+    }
+
+    // Main method to test the ArrayStack implementation
+    public static void main(String[] args) {
+        // Create a stack with a size of 5
+        ArrayStack stack = new ArrayStack(5);
+
+        // Push elements onto the stack
+        stack.push(10);  // Adds 10 to the stack
+        stack.push(20);  // Adds 20 to the stack
+        stack.push(30);  // Adds 30 to the stack
+    }
+}
+```
+
+- Popping in an Array-based stack
+```
+public int pop() {
+    if (top == -1) {
+        System.out.println("Stack is empty! Can't pop.");
+        return -1;  // Stack underflow
+    } else {
+        int poppedValue = stack[top--];  // Return the top element and decrement top
+        System.out.println("Popped element: " + poppedValue);
+        return poppedValue;
+    }
+}
+```
+
