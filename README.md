@@ -132,6 +132,35 @@ public class GenericArrayList {
 
 - ArrayList for **DYNAMIC DATA ( adjusting & flexiblity )** whereas Array for **STATIC DATA ( fixed and efficiency )**
 
+## Difference between ArrayList & Arrays
+Differences Between ArrayLists and Arrays in Java
+
+- Size:
+	- Array: Fixed size. The length is defined at creation and cannot be changed.
+	- ArrayList: Dynamic size. Can grow and shrink as needed when elements are added or removed.
+ 
+- Type:
+  	- Array: Can hold primitive data types (e.g., int, char) and objects.
+	- ArrayList: Can only hold objects (for primitive types, they are wrapped in their corresponding wrapper classes).
+
+- Performance:
+	- Array: Generally faster for accessing elements due to direct indexing.
+	- ArrayList: Slightly slower for access, as it involves more overhead (like method calls)
+
+- Methods:
+	- Array: Limited built-in methods (e.g., length property).
+	- ArrayList: Provides numerous built-in methods (e.g., add(), remove(), contains(), etc.) for easy manipulation.
+
+- Initialization:
+	- Array: Declared with a specific type and size (e.g., int[] arr = new int[5];).
+	- ArrayList: Declared as a type of List (e.g., ArrayList<Integer> list = new ArrayList<>();)
+   
+- Memory Management:
+  	- Array: Less memory overhead, as it’s a simpler data structure.
+	- ArrayList: More memory overhead due to additional features (like capacity management).
+
+In summary, use arrays when you know the size of the data in advance and need fast access, while ArrayLists are ideal when you need flexibility in size and convenient methods for managing the collection.
+
 ## LinkedList
 - A Linked List is a data structure that allows you to store a sequence of elements called **nodes**. Each node holds two critical pieces of information: the **data** itself and a **reference** (or link) to the next node in the sequence. This setup forms a chain-like structure, where each node knows how to find the next one.
 
@@ -412,4 +441,5 @@ public int pop() {
     }
 }
 ```
+
 
