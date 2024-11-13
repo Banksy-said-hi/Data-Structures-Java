@@ -448,10 +448,15 @@ public int pop() {
 
 ## Resources
 **Arrays**: https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html
+
 **Difference between ArrayList and LinkedList**: https://www.youtube.com/watch?v=ul4wHrbJ8Fk
+
 **Java's Collection Framework**: https://docs.oracle.com/javase/tutorial/collections/intro/index.html
+
 **Generics**: https://docs.oracle.com/javase/tutorial/extra/generics/index.html
+
 **Class Stack**: https://docs.oracle.com/en/java/javase/22/docs/api/java.base/java/util/Stack.html
+
 **Queue**: https://docs.oracle.com/javase/tutorial/collections/implementations/queue.html
 
 
