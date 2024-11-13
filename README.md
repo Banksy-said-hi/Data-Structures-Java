@@ -1,5 +1,8 @@
 # Data-Structures-Java
 ## Arrays
+Arrays are one of the fundamental building blocks of Java. Why, you ask? Because they allow you to store a fixed number of elements of a single type in an ordered fashion. They are ideal when you know the exact number of elements needed and require fast access to specific elements by their index. In essence, arrays offer simplicity and efficiency for managing related data of a fixed size.
+
+
 - Inserting or deleting elements in the midddle of an array requires extra memory
 
 - Deleting and replacing elements with null values can waste memory because the array size remains unchanged
@@ -441,5 +444,14 @@ public int pop() {
     }
 }
 ```
+
+
+## Resources
+**Arrays**: https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html
+**Difference between ArrayList and LinkedList**: https://www.youtube.com/watch?v=ul4wHrbJ8Fk
+**Java's Collection Framework**: https://docs.oracle.com/javase/tutorial/collections/intro/index.html
+**Generics**: https://docs.oracle.com/javase/tutorial/extra/generics/index.html
+**Class Stack**: https://docs.oracle.com/en/java/javase/22/docs/api/java.base/java/util/Stack.html
+**Queue**: https://docs.oracle.com/javase/tutorial/collections/implementations/queue.html
 
 
