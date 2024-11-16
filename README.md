@@ -445,6 +445,18 @@ public int pop() {
 }
 ```
 
+## Hashmap 
+Key-value collection, suitable for large amounts of data, unordered data collection, fast retrieval, keys need to be unique, the HashMap does not maintain a configurable or predictable order
+
+- get(key): returns the value;
+- put(key, value);
+- containsKey(key); returns boolean
+- clear(): clear out the hashmap
+- isEmpty(): returns boolean
+  
+- **keySet()**: Iterates through the keys and retrieves values using the get() method, returns a **set** which stores all the keys
+  
+- **entrySet()**: returns a Set of the mappings contained in the HashMap. Each element in this set is a Map.Entry object that provides direct access to both the key and the value, when you need to process both keys and values together, making it easier to handle both elements in a single iteration.
 
 ## Resources
 **Arrays**: https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html
