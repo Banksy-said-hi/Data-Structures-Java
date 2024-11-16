@@ -1,4 +1,4 @@
-# Data-Structures-Java
+# Data Structures Java
 ## Arrays
 Arrays are one of the fundamental building blocks of Java. Why, you ask? Because they allow you to store a fixed number of elements of a single type in an ordered fashion. They are ideal when you know the exact number of elements needed and require fast access to specific elements by their index. In essence, arrays offer simplicity and efficiency for managing related data of a fixed size.
 
@@ -470,5 +470,7 @@ Key-value collection, suitable for large amounts of data, unordered data collect
 **Class Stack**: https://docs.oracle.com/en/java/javase/22/docs/api/java.base/java/util/Stack.html
 
 **Queue**: https://docs.oracle.com/javase/tutorial/collections/implementations/queue.html
+
+**Map.Entry**: https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/Map.Entry.html
 
 
