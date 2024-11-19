@@ -1,7 +1,15 @@
 # Data Structures Java
+## Choosing the right structure
+While choosing the best data collection for storing your data, these factors need to be considered:
+- **Frequency of Operations**: how often the data will be retrieved?
+For instance, quick insertion, deletion, and retrieval can be satisfied nicely with **Hashmap**
+
+- **Memory Constraints**: does memory usage impose a limit on us?
+
+- **Uniform Keys**: can we avoid hash collision for keys? 
+
 ## Arrays
 Arrays are one of the fundamental building blocks of Java. Why, you ask? Because they allow you to store a fixed number of elements of a single type in an ordered fashion. They are ideal when you know the exact number of elements needed and require fast access to specific elements by their index. In essence, arrays offer simplicity and efficiency for managing related data of a fixed size.
-
 
 - Inserting or deleting elements in the midddle of an array requires extra memory
 
@@ -445,18 +453,19 @@ public int pop() {
 }
 ```
 
-## Hashmap 
-Key-value collection, suitable for large amounts of data, unordered data collection, fast retrieval, keys need to be unique, the HashMap does not maintain a configurable or predictable order
+## Hashmap ( ideal for Caching, Frequency Counts, Quick Lookups )
+Key-value collection, suitable for large amounts of data, unordered data collection, fast retrieval, keys need to be unique, the HashMap does not maintain a configurable or predictable order, **fast lookup time**, dynamic data sets initially 16, low collision rate, uses more memory than pther collections, 
 
 - get(key): returns the value;
 - put(key, value);
 - containsKey(key); returns boolean
-- clear(): clear out the hashmap
-- isEmpty(): returns boolean
+- clear( ): clear out the hashmap
+- isEmpty( ): returns boolean
   
-- **keySet()**: Iterates through the keys and retrieves values using the get() method, returns a **set** which stores all the keys
+- **keySet( )**: Iterates through the keys and retrieves values using the get() method, returns a **set** which stores all the keys
   
-- **entrySet()**: returns a Set of the mappings contained in the HashMap. Each element in this set is a Map.Entry object that provides direct access to both the key and the value, when you need to process both keys and values together, making it easier to handle both elements in a single iteration.
+- **entrySet( )**: returns a Set of the mappings contained in the HashMap. Each element in this set is a Map.Entry object that provides direct access to both the key and the value, when you need to process both keys and values together, making it easier to handle both elements in a single iteration.
+
 
 ## Resources
 **Arrays**: https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html
