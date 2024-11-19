@@ -1,5 +1,5 @@
 # Data Structures Java
-## Choosing the right structure
+## How to choose the right structure?
 While choosing the best data collection for storing your data, these factors need to be considered:
 - **Frequency of Operations**: how often the data will be retrieved?
 For instance, quick insertion, deletion, and retrieval can be satisfied nicely with **Hashmap**
@@ -453,7 +453,7 @@ public int pop() {
 }
 ```
 
-## Hashmap ( ideal for Caching, Frequency Counts, Quick Lookups )
+## Hashmap ( ideal for caching, frequency counts, quick lookups )
 Key-value collection, suitable for large amounts of data, unordered data collection, fast retrieval, keys need to be unique, the HashMap does not maintain a configurable or predictable order, **fast lookup time**, dynamic data sets initially 16, low collision rate, uses more memory than pther collections, 
 
 - get(key): returns the value;
