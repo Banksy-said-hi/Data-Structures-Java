@@ -466,6 +466,7 @@ Key-value collection, suitable for large amounts of data, unordered data collect
   
 - **entrySet( )**: returns a Set of the mappings contained in the HashMap. Each element in this set is a Map.Entry object that provides direct access to both the key and the value, when you need to process both keys and values together, making it easier to handle both elements in a single iteration.
 
+## LinkedHashmap ( )
 
 ## Resources
 **Arrays**: https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html
