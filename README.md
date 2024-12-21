@@ -475,7 +475,10 @@ Key-value collection, suitable for large amounts of data, unordered data collect
 - Storign key value pairs, automatically sorts alphabetically
 - Comparator methods
 - Custom ordering
-
+- Self-balancing binary search tree ( BST )
+- Red-black Tree
+- Binary tree
+- put(), remove(), get()
   
 ## Resources
 **Arrays**: https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html
