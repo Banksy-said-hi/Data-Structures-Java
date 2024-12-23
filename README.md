@@ -479,7 +479,14 @@ Key-value collection, suitable for large amounts of data, unordered data collect
 - Red-black Tree
 - Binary tree
 - put(), remove(), get()
-  
+
+
+# Searching Algorithms
+- Linear Search:
+- Binary Search:
+- 
+
+
 ## Resources
 **Arrays**: https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html
 
