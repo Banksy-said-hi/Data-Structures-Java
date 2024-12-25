@@ -484,8 +484,17 @@ Key-value collection, suitable for large amounts of data, unordered data collect
 # Searching Algorithms
 - Linear Search:
 - Binary Search:
-- 
 
+# Sorting Algorithm
+- Bubble Sort:
+- Selection Sort:
+- Insertion Sort:
+- Bucket Sort:
+- Merge Sort:
+- Radix Sort:
+- Quick Sort:
+
+- 
 
 ## Resources
 **Arrays**: https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html
